@@ -11,6 +11,9 @@
 		050921112BC13E5600B7FC41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050921102BC13E5600B7FC41 /* ContentView.swift */; };
 		050921132BC13E5700B7FC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050921122BC13E5700B7FC41 /* Assets.xcassets */; };
 		050921162BC13E5700B7FC41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050921152BC13E5700B7FC41 /* Preview Assets.xcassets */; };
+		05E6D58D2BC1418B002F4028 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E6D58C2BC1418B002F4028 /* Constant.swift */; };
+		05E6D5932BC149E6002F4028 /* LineDotShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E6D5922BC149E6002F4028 /* LineDotShape.swift */; };
+		05E6D5952BC14E66002F4028 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E6D5942BC14E66002F4028 /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		050921102BC13E5600B7FC41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		050921122BC13E5700B7FC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		050921152BC13E5700B7FC41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05E6D58C2BC1418B002F4028 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		05E6D5922BC149E6002F4028 /* LineDotShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineDotShape.swift; sourceTree = "<group>"; };
+		05E6D5942BC14E66002F4028 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			children = (
 				0509210E2BC13E5600B7FC41 /* GDSC_CVApp.swift */,
 				050921102BC13E5600B7FC41 /* ContentView.swift */,
+				05E6D58C2BC1418B002F4028 /* Constant.swift */,
 				050921122BC13E5700B7FC41 /* Assets.xcassets */,
 				050921142BC13E5700B7FC41 /* Preview Content */,
+				05E6D5922BC149E6002F4028 /* LineDotShape.swift */,
+				05E6D5942BC14E66002F4028 /* ContactView.swift */,
 			);
 			path = "GDSC-CV";
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				050921112BC13E5600B7FC41 /* ContentView.swift in Sources */,
+				05E6D5932BC149E6002F4028 /* LineDotShape.swift in Sources */,
 				0509210F2BC13E5600B7FC41 /* GDSC_CVApp.swift in Sources */,
+				05E6D5952BC14E66002F4028 /* ContactView.swift in Sources */,
+				05E6D58D2BC1418B002F4028 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
